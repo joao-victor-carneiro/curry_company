@@ -265,7 +265,7 @@ tab1, tab2, tab3 = st.tabs(['Visão Gerencial', '_', '_'])
 with tab1:
     #==================== Container 1 ==================#  
     with st.container():
-        st.title(':blue[Overall Metrics] :sunglasses:')
+        st.title('Overall Metrics')
         col1, col2, col3= st.columns(3,)
 
         with col1:
@@ -305,14 +305,14 @@ with tab1:
     #==================== Container 3 ==================# 
     with st.container():
         st.markdown("""___""")
-        st.title (' :blue[Tempo médio de entrega por cidade]')
+        st.title ('Tempo médio de entrega por cidade')
         fig = avg_time_delivery_city_graph (df1)
         st.plotly_chart (fig, use_container_width=True)      
 
     #==================== Container 4 ==================#                                               
     with st.container():
         st.markdown("""___""")
-        st.title(' :blue[Distribuição do tempo]')
+        st.title('Distribuição do tempo')
         col1,col2 = st.columns(2, gap='large')
 
         with col1:
@@ -328,6 +328,6 @@ with tab1:
     #==================== Container 5 ==================#
     with st.container():
         st.markdown("""___""")
-        st.title(' :blue[Distribuição da distância]')
+        st.title('Distribuição da distância')
         fig = distance_distribuction (df1)
         st.plotly_chart (fig, use_container_width=True)    

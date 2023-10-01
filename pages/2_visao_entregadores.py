@@ -181,7 +181,7 @@ tab1, tab2, tab3 = st.tabs(['Visão Gerencial', '_', '_'])
 with tab1:
     #==================== Container 1 ==================#
     with st.container():
-        st.title(':blue[Overall Metrics]')
+        st.title('Overall Metrics')
         col1, col2, col3, col4 = st.columns(4, gap='large')
         
         with col1:
@@ -209,7 +209,7 @@ with tab1:
     #==================== Container 2 ==================#
     with st.container():
         st.markdown("""___""")
-        st.title (' :blue[Avaliações]')
+        st.title ('Avaliações')
         col1,col2 = st.columns (2, gap="small")
         
         with col1:
@@ -238,7 +238,7 @@ with tab1:
     #==================== Container 3 ==================#
     with st.container():
         st.markdown("""___""")
-        st.title(' :blue[Velocidade de Entrega]')
+        st.title('Velocidade de Entrega')
         col1,col2 = st.columns(2, gap='large')
 
         with col1:
