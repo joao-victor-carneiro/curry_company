@@ -219,7 +219,7 @@ df1 = clean_code(df)
 # SIDEBAR
 #=========================================================================#
 
-st.header('Marketplace - visão restaurantes', divider='blue') #Criar Títulos
+st.header('Marketplace - visão restaurantes') #Criar Títulos
 
 #image_path = 'Banco-do-Brasil-logo.png'
 image = Image.open ('Banco-do-Brasil-logo.png')
